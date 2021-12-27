@@ -20,7 +20,6 @@ Special made for a bare Raspberry Pi 4 see [Q-engineering deep learning examples
 | [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 416x416 tiny | 80 | 32.8 | 8.3 FPS | 2.8 FPS |
 | [YoloX](https://github.com/Qengineering/YoloX-ncnn-Raspberry-Pi-4) | 640x640 small | 80 | 40.5 | 2.6 FPS | 0.9 FPS |
 
-
 ------------
 
 ## Dependencies.<br/>
