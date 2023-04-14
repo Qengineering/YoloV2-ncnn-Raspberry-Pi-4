@@ -138,7 +138,8 @@ int main(int argc, char** argv)
     // the ncnn model https://github.com/nihui/ncnn-assets/tree/master/models
     yolov2.load_param("mobilenet_yolo.param");
     yolov2.load_model("mobilenet_yolo.bin");
-
+    yolov2.opt.num_threads=4;
+  
     std::vector<Object> objects;
     detect_yolov2(m, objects);
     draw_objects(m, objects);
